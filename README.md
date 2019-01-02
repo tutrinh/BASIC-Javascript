@@ -1,8 +1,10 @@
 # JS
 Javascript basics
+
+Markdown basics
 *This text will be italic*
 **This text will be bold**
-- [x] this is a complete item
+- [x] this is a **complete** item
 - [ ] this is an incomplete item
 - [x] @mentions, #refs, [links](http://github.com)
 
