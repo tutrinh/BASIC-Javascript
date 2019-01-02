@@ -48,11 +48,12 @@ var elements = [
   'Lithium',
   'Beryllium'
 ];
-Function
+Regular Function
 elements.map(function(element) { 
   return element.length; 
 }); // this statement returns the array: [8, 6, 7, 9]
 
+Arrow Function
 // The regular function above can be written as the arrow function below
 elements.map((element) => {
   return element.length;
