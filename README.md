@@ -28,3 +28,14 @@ const for constants
 let for block scope variables
 arrow functions =>
 ```
+### ES6 Spread Operator?
+```javascript
+spread operator ...
+Combine arrays, arr1.push(...arr2) // Adds arr2 items to end or array
+Copy Arrays, like var arr2 = arr.slice(), var arr2 = [...arr]
+``
+```javascript
+Math Functions
+let numbers = [9, 4, 7, 1];
+Math.min(...numbers); // 1
+```
