@@ -79,6 +79,16 @@ elements.map(element => {
 elements.map(element => element.length); // [8, 6, 7, 9]
 ```
 
+### Arrays
+#### Loop Through Get Values and Index
+```javascript
+const arr = [1, 2, 3, 4, 5];
+for (let (index, value) of arr.entries)){
+  // arr.entries()
+  console.log(index, value);
+ };
+```
+
 ### ES6 Spread Operator?
 ```javascript
 Spread Operator ...
