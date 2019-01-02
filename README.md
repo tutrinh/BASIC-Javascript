@@ -83,7 +83,7 @@ elements.map(element => element.length); // [8, 6, 7, 9]
 #### Loop Through Get Values and Index
 ```javascript
 const arr = [1, 2, 3, 4, 5];
-for (let (index, value) of arr.entries)){
+for (let (index, value) of arr.entries()){
   // arr.entries()
   console.log(index, value);
  };
