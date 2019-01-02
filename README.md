@@ -26,5 +26,5 @@ var rotate = function(matrix){
 ```javascript
 const for constants
 let for block scope variables
-arrow functions
+arrow functions =>
 ```
