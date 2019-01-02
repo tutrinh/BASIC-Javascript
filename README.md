@@ -37,8 +37,18 @@ const map1 = array1.map(x => x * 2);
 ```javascript
 const for constants
 let for block scope variables
+template literals (template strings)
 arrow functions =>
 ```
+
+### Template Literals (Template Strings)
+```javascript
+let name = "Tu";
+console.log(`My name is ${name}`);
+// My name is Tu
+// Need `` and ${}
+```
+
 ### Arrow Functions
 Two factors influenced the introduction of arrow functions: shorter functions and no existence of this keyword.
 ```javascript
