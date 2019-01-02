@@ -1,7 +1,7 @@
 # JS
 Javascript basics
 
-###Functions
+### Functions
 ```
 function rotate(matrix){
 
@@ -9,7 +9,7 @@ function rotate(matrix){
 };
 ```
 
-##Expression
+### Expression
 ```
 var rotate = function(matrix){
 
