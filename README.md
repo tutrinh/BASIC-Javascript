@@ -9,7 +9,6 @@ Javascript basics
 ### Functions
 ```javascript
 function rotate(matrix){
-
   return matrix;
 };
 ```
@@ -17,9 +16,7 @@ function rotate(matrix){
 ### Expression
 ```javascript
 var rotate = function(matrix){
-
   return matrix;
-  
 };
 ```
 
