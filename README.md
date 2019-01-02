@@ -46,7 +46,7 @@ arrow functions =>
 let name = "Tu";
 console.log(`My name is ${name}`);
 // My name is Tu
-// Need `` and ${}
+// Need backticks, `` and placholders, ${expression}
 ```
 
 ### Arrow Functions
