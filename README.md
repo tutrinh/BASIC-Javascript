@@ -22,3 +22,9 @@ var rotate = function(matrix){
 };
 ```
 
+## ES6 Basics
+```javascript
+const for constants
+let for block scope variables
+arrow functions
+```
