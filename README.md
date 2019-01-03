@@ -89,6 +89,13 @@ for (let (index, value) of arr.entries()){
  };
 ```
 
+### Arrays Numerical Sorting
+```javascript
+numArray.sort((a, b) => a - b); // For ascending sort
+numArray.sort((a, b) => b - a); // For descending sort
+```
+
+
 ### ES6 Spread Operator?
 ```javascript
 Spread Operator ...
