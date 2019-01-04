@@ -99,6 +99,24 @@ for (let (index, value) of arr.entries()){
  };
 ```
 
+### For...in Loop
+```javascript
+// Output the index
+const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (const index in numbers) {
+  console.log(numbers[index]);
+}
+```
+
+### For...of Loop
+```javascript
+// Output the values
+const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (const number of numbers) {
+  console.log(number);
+}
+```
+
 ### Arrays Numerical Sorting
 ```javascript
 numArray.sort((a, b) => a - b); // For ascending sort
