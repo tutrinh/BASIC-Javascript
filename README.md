@@ -22,6 +22,16 @@ var rotate = function(matrix){
 };
 ``` 
 
+## Regular Expressions
+Regular expressions are a way to describe patterns in string data. They form a small, ... A number of common character groups have their own built-in shortcuts.
+
+By formulating a regular expression with a special syntax, you can
+*s earch text a string
+* replace substrings in a string
+* extract information from a string
+
+
+
 ## Arrays
 ### Map
 Creates a new array with the results of calling a provided function on **every** element in the calling array.
