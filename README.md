@@ -30,7 +30,14 @@ By formulating a regular expression with a special syntax, you can
 * replace substrings in a string
 * extract information from a string
 
+## IIFE
+```javascript
+;(function (window, document, undefined) {
 
+	// self invoking
+
+})( window, document);
+```
 
 ## Arrays
 ### Map
