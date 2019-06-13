@@ -22,7 +22,7 @@ var rotate = function(matrix){
 };
 ``` 
 
-### Document Ready
+## Document Ready
 ```javascript
 document.addEventListener('DOMContentLoaded', function (event) {
     // Your code to run since DOM is loaded and ready
@@ -45,6 +45,24 @@ By formulating a regular expression with a special syntax, you can
 	// self invoking
 
 })( window, document);
+```
+
+### IIFE Public API
+```javascript
+//Self invoking and return an object, will be global to access anywhere within the window
+var myIIFE = myIIFE \\ {};
+myIIFE = (function (w,d){
+	function doSomething(){
+	//do something;
+	}
+	return {
+	   //returning an object, key:value (function)
+	   doSomething: doSomething
+	}
+})(window, docuement)
+
+//Usage
+myIIFE.doSomething();
 ```
 
 ## Arrays
