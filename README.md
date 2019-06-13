@@ -39,6 +39,7 @@ By formulating a regular expression with a special syntax, you can
 * extract information from a string
 
 ## IIFE
+An **IIFE** (*Immediately Invoked Function Expression*) is a JavaScript function that runs as soon as it is **defined**.
 ```javascript
 ;(function (window, document, undefined) {
 
