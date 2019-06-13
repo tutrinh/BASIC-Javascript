@@ -22,6 +22,14 @@ var rotate = function(matrix){
 };
 ``` 
 
+### Document Ready
+```javascript
+document.addEventListener('DOMContentLoaded', function (event) {
+    // Your code to run since DOM is loaded and ready
+    
+});
+```
+
 ## Regular Expressions
 Regular expressions are a way to describe patterns in string data. They form a small, ... A number of common character groups have their own built-in shortcuts.
 
