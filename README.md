@@ -30,6 +30,16 @@ document.addEventListener('DOMContentLoaded', function (event) {
 });
 ```
 
+### Document Ready for Slow Loading Els
+```javasript
+var readyStateCheckInterval = setInterval(function() {
+    if (document.readyState === "complete") {
+        clearInterval(readyStateCheckInterval);
+        init();
+    }
+}, 10);
+```
+
 ## Regular Expressions
 Regular expressions are a way to describe patterns in string data. They form a small, ... A number of common character groups have their own built-in shortcuts.
 
