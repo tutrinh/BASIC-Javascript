@@ -50,7 +50,7 @@ By formulating a regular expression with a special syntax, you can
 ### IIFE Public API
 ```javascript
 //Self invoking and return an object, will be global to access anywhere within the window
-var myIIFE = myIIFE \\ {};
+var myIIFE = myIIFE || {};
 myIIFE = (function (w,d){
 	function doSomething(){
 	//do something;
