@@ -74,7 +74,12 @@ myIIFE = (function (w,d){
 
 document.addEventListener('DOMContentLoaded', function (event) {
     // Your code to run since DOM is loaded and ready
-    myIIFE.doSomething();
+    var readyStateCheckInterval = setInterval(function () {
+        if (document.readyState === 'complete') {
+            clearInterval(readyStateCheckInterval);
+            myIIFE.doSomething();//calling the return function
+        }
+    }, 10);
 });
 ```
 
