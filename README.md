@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 ```
 
 ### Document Ready for Slow Loading Els
-```javasript
+```javascript
 var readyStateCheckInterval = setInterval(function() {
     if (document.readyState === "complete") {
         clearInterval(readyStateCheckInterval);
