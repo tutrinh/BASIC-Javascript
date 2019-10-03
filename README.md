@@ -40,6 +40,22 @@ var readyStateCheckInterval = setInterval(function() {
 }, 10);
 ```
 
+### Undefined
+```javascript
+use typeof to find the type of the variable/object like string, number, boolean and undefined
+if (typeof someVar == 'undefined') {
+	// do something if not exist
+}
+```
+
+### indexOf to Find Item in Array
+```javascript
+var beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
+console.log(beasts.indexOf('giraffe'));
+// expected output: -1
+-1 means item doesn't exist
+```
+
 ## Regular Expressions
 Regular expressions are a way to describe patterns in string data. They form a small, ... A number of common character groups have their own built-in shortcuts.
 
